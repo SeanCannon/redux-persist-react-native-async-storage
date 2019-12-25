@@ -1,0 +1,16 @@
+{
+  "name": "redux-persist-react-native-async-storage",
+  "version": "1.0.0",
+  "description": "redux-persist storage for React Native AsyncStorage",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": "https://github.com/seancannon/redux-persist-react-native-async-storage.git",
+  "author": "Sean Cannon <alienwebguy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{js,ts}' package.json README.md"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
