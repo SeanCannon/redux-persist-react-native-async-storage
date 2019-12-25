@@ -1,10 +1,13 @@
 {
   "name": "redux-persist-react-native-async-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "redux-persist storage for React Native AsyncStorage",
   "main": "src/index.js",
   "types": "src/index.d.ts",
-  "repository": "https://github.com/seancannon/redux-persist-react-native-async-storage.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seancannon/redux-persist-react-native-async-storage.git"
+  },
   "author": "Sean Cannon <alienwebguy@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -12,5 +15,15 @@
   },
   "devDependencies": {
     "prettier": "^1.18.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/seancannon/redux-persist-react-native-async-storage/issues"
+  },
+  "homepage": "https://github.com/seancannon/redux-persist-react-native-async-storage#readme",
+  "dependencies": {},
+  "keywords": [
+    "redux-persist",
+    "react-native",
+    "asyncstorage"
+  ]
 }

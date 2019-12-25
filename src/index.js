@@ -6,11 +6,11 @@ export default function createAsyncStorage(options = {}) {
 
   return {
     getItem: key =>
-      AsyncStorage.getItem(replacer(key, replaceCharacter), options),
+      AsyncStorage.getItem(replacer(key, replaceCharacter)),
     setItem: (key, value) =>
-      AsyncStorage.setItem(replacer(key, replaceCharacter), value, options),
+      AsyncStorage.setItem(replacer(key, replaceCharacter), value),
     removeItem: key =>
-      AsyncStorage.removeItem(replacer(key, replaceCharacter), options)
+      AsyncStorage.removeItem(replacer(key, replaceCharacter))
   };
 }
 
